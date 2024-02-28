@@ -1,0 +1,17 @@
+Dataset not found ⚠️, missing paths ['C:\\Users\\ASUS\\pycharmproject\\yolov5\\pavementdetection\\valid\\images']
+Traceback (most recent call last):
+  File "C:/Users/ASUS/pycharmproject/yolov5-master/yolov5-master/train.py", line 633, in <module>
+    main(opt)
+  File "C:/Users/ASUS/pycharmproject/yolov5-master/yolov5-master/train.py", line 529, in main
+    train(opt.hyp, opt, device, callbacks)
+  File "C:/Users/ASUS/pycharmproject/yolov5-master/yolov5-master/train.py", line 92, in train
+    loggers = Loggers(save_dir, weights, opt, hyp, LOGGER)  # loggers instance
+  File "C:\Users\ASUS\pycharmproject\yolov5-master\yolov5-master\utils\loggers\__init__.py", line 94, in __init__
+    self.wandb = WandbLogger(self.opt, run_id)
+  File "C:\Users\ASUS\pycharmproject\yolov5-master\yolov5-master\utils\loggers\wandb\wandb_utils.py", line 187, in __init__
+    self.data_dict = check_wandb_dataset(opt.data)
+  File "C:\Users\ASUS\pycharmproject\yolov5-master\yolov5-master\utils\loggers\wandb\wandb_utils.py", line 59, in check_wandb_dataset
+    return check_dataset(data_file)
+  File "C:\Users\ASUS\pycharmproject\yolov5-master\yolov5-master\utils\general.py", line 514, in check_dataset
+    raise Exception('Dataset not found ❌')
+Exception: Dataset not found ❌

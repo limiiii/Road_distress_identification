@@ -1,0 +1,25 @@
+{
+    "os": "Windows-10-10.0.22000-SP0",
+    "python": "3.8.13",
+    "heartbeatAt": "2022-08-15T01:42:49.410292",
+    "startedAt": "2022-08-15T01:42:47.152399",
+    "docker": null,
+    "gpu": "NVIDIA GeForce GTX 1050 Ti",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [
+        "--data",
+        "C:\\Users\\ASUS\\pycharmproject\\yolov5\\pavementdetection\\data.yaml",
+        "--cfg",
+        "C:\\Users\\ASUS\\pycharmproject\\yolov5-master\\yolov5-master\\models\\yolov5s.yaml",
+        "--batch-size",
+        "4"
+    ],
+    "state": "running",
+    "program": "C:/Users/ASUS/pycharmproject/yolov5-master/yolov5-master/train.py",
+    "codePath": "train.py",
+    "host": "DESKTOP-8SU7N7O",
+    "username": "ASUS",
+    "executable": "D:\\Program Files (x86)\\Anaconda\\envs\\py38\\python.exe"
+}

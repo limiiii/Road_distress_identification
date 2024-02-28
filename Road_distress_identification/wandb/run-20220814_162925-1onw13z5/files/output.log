@@ -1,0 +1,19 @@
+YOLOv5 temporarily requires wandb version 0.12.10 or below. Some features may not work as expected.
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Anaconda\envs\py38\lib\site-packages\clearml\task.py", line 583, in init
+    task = cls._create_dev_task(
+  File "D:\Program Files (x86)\Anaconda\envs\py38\lib\site-packages\clearml\task.py", line 3035, in _create_dev_task
+    task = cls(
+  File "D:\Program Files (x86)\Anaconda\envs\py38\lib\site-packages\clearml\task.py", line 183, in __init__
+    super(Task, self).__init__(**kwargs)
+  File "D:\Program Files (x86)\Anaconda\envs\py38\lib\site-packages\clearml\backend_interface\task\task.py", line 155, in __init__
+    super(Task, self).__init__(id=task_id, session=session, log=log)
+  File "D:\Program Files (x86)\Anaconda\envs\py38\lib\site-packages\clearml\backend_interface\base.py", line 145, in __init__
+    super(IdObjectBase, self).__init__(session, log, **kwargs)
+  File "D:\Program Files (x86)\Anaconda\envs\py38\lib\site-packages\clearml\backend_interface\base.py", line 39, in __init__
+    self._session = session or self._get_default_session()
+  File "D:\Program Files (x86)\Anaconda\envs\py38\lib\site-packages\clearml\backend_interface\base.py", line 115, in _get_default_session
+    InterfaceBase._default_session = Session(
+  File "D:\Program Files (x86)\Anaconda\envs\py38\lib\site-packages\clearml\backend_api\session\session.py", line 178, in __init__
+    raise ValueError(
+ValueError: ClearML configuration could not be found (missing `~/clearml.conf` or Environment CLEARML_API_HOST)
