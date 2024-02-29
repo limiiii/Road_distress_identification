@@ -4,14 +4,14 @@
 ![labels](https://github.com/limiiii/Road_distress_identification/assets/105148297/9eebe031-76ae-45ac-b60e-ec579ef093e4)  
 
 ## 训练
-  train_batch  
+  ### train_batch  
   ![train_batch0](https://github.com/limiiii/Road_distress_identification/assets/105148297/c027349c-bb43-439f-aa68-dadd21e94ff5)  
-  F1-curve  
+  ### F1-curve  
   ![F1_curve](https://github.com/limiiii/Road_distress_identification/assets/105148297/f90cd83f-9590-4436-914b-cd30068922f7)  
-  results_curve  
+  ### results_curve  
   ![results](https://github.com/limiiii/Road_distress_identification/assets/105148297/933dace6-2b60-492f-9c24-39dbfdb865dc)  
 ## 验证
-  val_batch  
+  ### val_batch  
   ![val_batch1_pred](https://github.com/limiiii/Road_distress_identification/assets/105148297/a3049008-8546-4ecb-b743-43471776f380)  
 ## detect_test result  
 ![Japan_008608](https://github.com/limiiii/Road_distress_identification/assets/105148297/fb5b791e-8da8-4072-ab21-87a5249c2cd2)  
